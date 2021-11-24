@@ -1,0 +1,32 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+body{
+    background: #eee;
+}
+
+.warpper{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.flex-cointeiner{
+    display: flex;
+}
+.box{
+    height: 100px;
+    min-width: 100px;
+}
+.one{
+    background: red;
+}
+.two{
+    background: blue;
+
+}
+.three{
+    background: green;
+}
