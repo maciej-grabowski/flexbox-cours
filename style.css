@@ -15,17 +15,20 @@ body{
 
 .flex-cointeiner{
     display: flex;
+    flex-wrap: wrap;
 }
 .box{
     height: 100px;
-    min-width: 100px;
+    min-width: 200px;
+    flex: 1 0 200px;
 }
 .one{
     background: red;
+    
 }
 .two{
     background: blue;
-
+    
 }
 .three{
     background: green;
